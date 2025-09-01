@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="weather-app">
+    <!-- Search -->
+    <div class="search-box">
+      <input type="text" placeholder="Enter city name">
+      <button>Search</button>
+    </div>
+    <div class="weather-info">
+      <h2>Karachi, PK</h2>
+      <img src="https://openweathermap.org/img/wn/01d.png" alt="Weather Icon">
+      <h1>30°C</h1>
+      <p>Sunny</p>
+    </div>
+    <div class="weather-details">
+      <div class="detail">
+        <h4>Humidity</h4>
+        <p>65%</p>
+      </div>
+      <div class="detail">
+        <h4>Wind</h4>
+        <p>15 km/h</p>
+      </div>
+      <div class="detail">
+        <h4>Pressure</h4>
+        <p>1013 hPa</p>
+      </div>
+    </div>
+    <div class="forecast">
+      <h3>5-Day Forecast</h3>
+      <div class="forecast-cards">
+        <div class="card">
+          <p>Mon</p>
+          <img src="https://openweathermap.org/img/wn/02d.png" alt="">
+          <p>32°C</p>
+        </div>
+        <div class="card">
+          <p>Tue</p>
+          <img src="https://openweathermap.org/img/wn/04d.png" alt="">
+          <p>29°C</p>
+        </div>
+        <div class="card">
+          <p>Wed</p>
+          <img src="https://openweathermap.org/img/wn/09d.png" alt="">
+          <p>28°C</p>
+        </div>
+        <div class="card">
+          <p>Thu</p>
+          <img src="https://openweathermap.org/img/wn/01n.png" alt="">
+          <p>27°C</p>
+        </div>
+        <div class="card">
+          <p>Fri</p>
+          <img src="https://openweathermap.org/img/wn/03d.png" alt="">
+          <p>31°C</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
